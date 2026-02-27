@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="style33.css">
+		<script src="script.js" defer></script>
+
+		<title>Портфолио</title>
+	</head>
+
+	<body>
+		<header>
+
+			<div class="logo">
+				<img src="https://placehold.co/100x50" alt="Logo">
+			</div>
+
+			<nav>
+				<a href="#skills">Skills</a>
+				<a href="#project">Projects</a>
+				<a href="#contact">Contacts</a>
+			</nav>
+
+		</header>
+
+		<main class="container">
+
+			<section class="hero">
+
+				<h1>Портфолио</h1>
+
+				<article>
+					<h3>О себе</h3>
+					<p>Меня зовут Юсуф, я занимаюсь фронтендом и я хочу улучшить свои навыки в этом деле.</p>
+					<p>Был бы рад сотрудничеству, верстка по макету / адаптив / формы / модалки, открыт к конструктивной критике.</p>
+					<p>Пока-что выполняю заказы типа вёрстки или создания лендингов, в будущем планирую выходить на более высокий уровень.</p>
+				</article>
+
+			</section>
+
+			<section class="skills" id="skills">
+				<h2>Навыки</h2>
+				<article>
+					<h3>Вот что я умею:</h3>
+					<ul>
+						<li>Верстать страницы</li>
+						<li>Создавать лендинги</li>
+						<li>Писать скрипты валидации для форм</li>
+						<li>И еще могу писать скрипты типа модальных окон и реагирования на действия пользователя</li>
+					</ul>
+				</article>
+			</section>
+
+			<section class="projects" id="project">
+
+				<div class="container-projects">
+
+					<h2 class="section-title">Проекты</h2>
+					<p class="section-subtitle">На данный момент у меня есть два лендинга, написанные мной с нуля</p>
+
+					<div class="projects-grid">
+
+						<article class="project-card">
+
+							<div class="project-top">
+								<h3 class="project-title">Лендинг №1</h3>
+								<p class="project-desc">Простенький сайт, моя первая практика. Реализована реакция на клик пользователя.</p>
+							</div>
+
+							<ul class="project-tags" aria-label="Технологии">
+								<li class="tag">HTML</li>
+								<li class="tag">CSS</li>
+								<li class="tag">JS</li>
+							</ul>
+
+							<div class="project-links">
+								<a class="btn btn-primary" href="https://yusufeu.github.io/landing-1/" target="_blank" rel="noopener">Live</a>
+								<a class="btn btn-ghost" href="https://github.com/yusufEU/landing-1" target="_blank" rel="noopener">GitHub</a>
+							</div>
+
+						</article>
+
+						<article class="project-card">
+
+							<div class="project-top">
+								<h3 class="project-title">Лендинг №2</h3>
+								<p class="project-desc">Это уже более продвинутый вариант. Тут я применил flexbox и grid, поработал со стилями, и так же добавил валидацию и реакцию на клик пользователя. Плюсом есть модалка и блокировка прокрутки.</p>
+							</div>
+
+							<ul class="project-tags" aria-label="Технологии">
+								<li class="tag">HTML</li>
+								<li class="tag">CSS</li>
+								<li class="tag">JS</li>
+							</ul>
+
+							<div class="project-links">
+								<a class="btn btn-primary" href="https://yusufeu.github.io/landing-2/" target="_blank" rel="noopener">Live</a>
+								<a class="btn btn-ghost" href="https://github.com/yusufEU/landing-2" target="_blank" rel="noopener">GitHub</a>
+							</div>
+
+						</article>
+
+					</div>
+
+				</div>
+
+			</section>
+
+			<section class="contact" id="contact">
+				<h2>Контакты</h2>
+				<form method="post" action="#" id="form">
+					<fieldset>
+						<legend>Заполните эти поля</legend>
+
+						<p>
+							<label for="username">Имя</label>
+							<input type="text" id="username" name="username" required>
+						</p>
+
+						<p>
+							<label for="email">Почта</label>
+							<input type="email" id="email" name="email" required>							
+						</p>
+
+						<p>
+							<label for="msg">Сообщение</label>
+							<textarea id="msg" name="msg" rows="4"></textarea>
+						</p>
+
+						<button type="submit" class="btn">Отправить</button>
+					</fieldset>
+				</form>
+			</section>
+		</main>
+
+		<footer><p>Все права защищены. 2026.</p></footer>
+	</body>
+</html>
